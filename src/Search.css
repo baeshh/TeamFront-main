@@ -1,0 +1,119 @@
+/* Search.css */
+
+/* 전체 레이아웃 */
+.search {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .search h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* 검색창 */
+  .search_form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search_input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+  }
+  
+  .search_button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search_button:hover {
+    background-color: #4aaedb;
+  }
+  
+  /* 핫한 게시물 */
+  .hot_posts {
+    margin-bottom: 30px;
+  }
+  
+  .hot_posts h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .hot_posts_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .hot_post_card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .hot_post_card:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+  }
+  
+  .hot_post_card h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .hot_post_card p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+  
+  /* 검색 결과 */
+  .search_results {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .search_results h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .search_item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .search_item:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+  }
+  
+  .no_results {
+    text-align: center;
+    color: #888;
+  }
+  
